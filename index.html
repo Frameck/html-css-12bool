@@ -9,23 +9,195 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Esercizio per Casa</h1>
     <div class="container">
-        <div class="row">
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-            <div class="col-xs-1">1 col</div>
-        </div>
+        <section>
+            <h1>Esercizio per Casa</h1>
 
+            <!-- 12 col -->
+            <div class="row">
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+                <div class="col-1">1 col</div>
+            </div>
+            
+            <!-- 3 col (2-5-5) -->
+            <div class="row">
+                <div class="col-2">2 col</div>
+                <div class="col-5">5 col</div>
+                <div class="col-5">5 col</div>
+            </div>
+
+            <!-- 1 column -->
+            <div class="row">
+                <div class="col-12">12 col</div>
+            </div>
+
+            <!-- 3 column (8-2-2) -->
+            <div class="row">
+                <div class="col-8">8 col</div>
+                <div class="col-2">2 col</div>
+                <div class="col-2">2 col</div>
+            </div>
+
+            <!-- 5 column (1-2-2-6-1) -->
+            <div class="row">
+                <div class="col-1">1 col</div>
+                <div class="col-2">2 col</div>
+                <div class="col-2">2 col</div>
+                <div class="col-6">6 col</div>
+                <div class="col-1">1 col</div>
+            </div>
+
+            <!-- 2 column with nested columns -->
+            <div class="row">
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-2 nested">Nested <br> 2 col</div>
+                        <div class="col-2 nested">Nested <br> 2 col</div>
+                        <div class="col-8 nested">Nested <br> 8 col</div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-6 nested">Nested 6 col</div>
+                        <div class="col-6 nested">Nested 6 col</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <section>
+            <div class="row">
+                <div class="col-12"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-11"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-10"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-9"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-8"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="col-7"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6"></div>
+            </div>
+        </section>
+
+        <section>
+            <h1>Offset</h1>
+
+            <div class="row">
+                <div class="col-offset-11"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-10"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-9"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-8"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-7"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-6"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-5"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-3"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-offset-1"></div>
+            </div>
+        </section>
+
+        <section>
+            <h1>Nested</h1>
+
+            <div class="row">
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-3 nested"></div>
+                        <div class="col-6 nested"></div>
+                        <div class="col-3 nested"></div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="row">
+                        <div class="col-6 nested"></div>
+                        <div class="col-6 nested"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1>Alignment</h1>
+
+            <!-- flex start -->
+            <div class="row start">
+                <div class="col-6">start</div>
+            </div>
+
+            <!-- center -->
+            <div class="row center">
+                <div class="col-6">center</div>
+            </div>
+
+            <!-- flex end -->
+            <div class="row end">
+                <div class="col-6">end</div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
