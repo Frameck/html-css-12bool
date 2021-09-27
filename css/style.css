@@ -33,3 +33,37 @@ section {
 .end {
     justify-content: flex-end;
 }
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% / 3);
+}
+
+.big-height {
+    height: 100px;
+}
+
+.small-height {
+    height: 40px;
+}
+
+.align-top {
+    align-self: flex-start;
+}
+
+.align-middle {
+    align-self: center;
+}
+
+.align-bottom {
+    align-self: flex-end;
+}
